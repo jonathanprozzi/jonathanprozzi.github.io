@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+    padding: 10px;
+}
+
+#main-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+}
+
+.page-body {
+    position: relative;
+}
+
+section {
+    padding: 0 30px;
+}
+
+#profile-picture-wrapper {
+    display: block;
+    position: relative;
+    max-width: 50%;
+    max-height: 50%;
+    top: 50%;
+    left: 0;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+#profile-picture {
+    display: block;
+    position: relative;
+    max-width: 33%;
+    max-height: 33%;
+    margin: 0 auto;
+    border: 5px solid black;
+    border-radius: 50%;
+}
+#profile-bio-wrapper {
+    max-width: 50%;
+    position: relative;
+    margin: 0 auto;
+}
+
+#bio-wrapper {
+    display: block;
+    position: relative;
+    max-width: 33.33%;
+    margin: 0 auto;
+    padding-bottom: 0px;
+}
+
+#profile-bio-name {
+    margin-bottom: 5px;
+    padding-bottom: 0;
+    text-align: center;
+}
+
+#profile-bio-title {
+    margin-top: 5px;
+    padding-top: 0;
+    text-align: center;
+}
+
+#bio-wrapper {
+    position: relative;
+
+}
+
+#profile-bio-brief {
+    display: block;
+    text-align: center;
+}
+
+.navbar-container {
+    max-width: 33.33%;
+    display: block;
+    position: relative;
+    margin: 5px auto;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar {
+    max-width: 33.33%;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+}
+
+.navbar ul {
+    position: relative;
+    list-style: none;
+}
+
+.navbar ul li {
+    padding-left: 0;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.navbar ul a {
+    color: #2aa198;
+    text-decoration: none;
+}
+
+footer {
+    position: relative;
+}
+
+footer p {
+    font-size: .75em;
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 0;
+}
